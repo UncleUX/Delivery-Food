@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Bienvenue - Data Anonymizer</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <body>
+            <p>
+                Bienvenue <strong>{{ client_name }}</strong>, 
+        </p>
+        <p>
+            Merci d’avoir rejoint notre plateforme d’analyse de données personnelles.
+        </p>
+        <p>
+            Pour votre inscription, un compte administrateur a été créé sur notre plateforme (<a href="{{ site_url }}">{{ site_name }}</a>) avec l'adresse email que vous nous avez fourni.
+        </p>
+        <p>
+            Bien vouloir vous rendre sur notre plateforme pour initialiser votre mot de passe, veuillez cliquer ou recopier simplement le lien (puis le coller dans votre navigateur) et compléter le reste du formulaire : <a href="{{ url }}">{{ url }}</a>.
+        </p>
+        <p>
+            Cordialement, L’équipe du {{ site_name }}
+        </p>
+    </body>
+</html>

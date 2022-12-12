@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../stylecss/style_file.css">
+    <title>{{title_report}}</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: right;
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        table tr {
+            border-bottom: 1px solid
+        }
+
+        table th, table td {
+            padding: 10px 20px;
+            word-wrap: break-word;
+
+        }
+
+        .col-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+
+        .col-12 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    {{template_content}}
+</div>
+
+</body>
+</html>

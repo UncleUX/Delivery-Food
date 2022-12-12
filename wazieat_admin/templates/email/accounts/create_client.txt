@@ -1,0 +1,10 @@
+
+Bienvenue {{ client_name }},
+Merci d’avoir rejoint notre plateforme d’analyse de données personnelles. 
+
+
+Pour votre inscription, un compte administrateur a été créé sur notre plateforme ({{ site_url }}) avec l'adresse email que vous nous avez fourni.
+
+Bien vouloir vous rendre sur notre plateforme pour initialiser votre mot de passe, veuillez cliquer ou recopier simplement le lien et le coller dans votre navigateur et complétez le reste du formulaire {{ url }}
+
+Cordialement, L’équipe du {{ site_name }}

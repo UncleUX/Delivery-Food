@@ -1,0 +1,14 @@
+Bienvenue dans {{ site_name }},
+
+Vous avez reçu une demande de création d'un nouveau compte {{ type }}.
+
+Cliquez ci-dessous pour analyser la demande.
+
+{{ url }}
+
+Détails du compte :
+
+Nom du {{ type }} : {{ name }}
+Email : {{ email }}
+
+Encore une fois, bienvenue dans {{ site_name }}!

@@ -1,0 +1,14 @@
+Bienvenue dans {{ site_name }},
+
+Vous avez reçu une demande de création {{ type }} du restaurant {{ restaurant }}.
+
+Cliquez ci-dessous pour analyser la demande.
+
+{{ url }}
+
+Détails du compte :
+
+Nom {{ type }} : {{ name }}
+Email : {{ email }}
+
+Encore une fois, bienvenue dans {{ site_name }}!

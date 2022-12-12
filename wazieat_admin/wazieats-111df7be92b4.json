@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wazieats",
+  "private_key_id": "111df7be92b4f4ea3ed9da4726a1e6090813b82f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDC1aciUE4irtvQ\nLaPZHBh6IkjheOqPtieWkhRt+AV8ADc9ypn5Gl4b0SlmCZ2NZQ6/aD+glDc2XFtB\nZvlzChtMpVM1XyN9oJJczGODhwHUbhwWXsMheIjbLdz8LWm0VP1zZP+xPEAyOLht\nEqT9KV7s5HEjUyEqBqOa5zyEJ66xaJL1UlF1ib3MjVz0ExpSCT15KTBkHHmFXwPq\nqS5JJj99KY1OC3gMuxc/2toj+QygkkQ/m6ILt4RKPutPqoJQ6uYFn7YuEOEI/1EO\nBjx+D9tFb8QDLpNms98vNItq4neFUrc2EbItzc723byF9YLh5YzZoVkajz/Mt/29\nUWtJuMzbAgMBAAECggEAW7EF44msg/kLvLjF6+ajhFL/PpFTvkdo8R0VXT2Egzts\nw/lFpixpDqlMVNeAnKrrGlxa2Vz3cO9dCPYHvkKK33LMqoj4IGbBiserq5oNW+Zn\n9IUrSuS5b4Dxh4JtxS7cSoLFLKlgwuHbtYU5PWVLZawKrKeyK1+NfliFq+Iq/hUZ\nIXvwVBM8CkSQZVI924Yv7k7+FUwqbRMewO/MQtB1RPYkRyesZMIP6pSKzt+DHu7z\ng0gPtNfdA7aNdI7rkVcTQ+/9Gah2Y1ff/TT+3iXrZpN3E7XS7K92H3/O/vL3DRFv\nuzKX/Iq2Ov0zkBxBPpDlQLJ4BbcUscmbR1DyNZuSJQKBgQDgvf4hTSPEOqsQaFuV\nT3J5q1MqT7MGWj7RKHBU4YsQOVtLdb0f0hLsqSqeiStVkL4u2i7orBkNobcKOTSg\nKolwbvlfegSN4j5tY17dz2yVdgMmehJ4RyUbBuIhYFAgMV92PnINpCXyIMewM0Mj\nci69fN1TjkBYvcES/CvdXLRKfQKBgQDd7srjHnqiGho4cYybGmbkxLonB32TerIS\neoUikxKco0JWkXOUP6qdDUUixWbhHpxOczgViTTtXQ5iFs1EaPwYkmCO7HoNtHYR\neIU/ORzEWO1VisMp5cn7USnvG8hSWxao/BYghodubdTi/2r5sp8CtgQsIERw3Tw9\ncjr4Ar28NwKBgQCK/LS3P4+JAYddZEyPMEzpdcy+8/8RRKpoi4u80qc/51jQeAX4\nMeDGP3A+DzKffh4/t2sfNZ9g0Mv0JKCpFOVehSLvqvQ6Etrsp3G511edrxgPqZrW\ni5kk98LNRVUIM8CHzeKXERbugNs92tYAi9LgGOJ/lA+zUdafuRgfk/9juQKBgCG9\n6ILXY3W52jqyqNn8DaDCeDru3JzLjr9YeV1kVvQRrkhTHOtxMpNmLRi4Qof/i2wy\nAFjl33InL8SiCttXytxBhQS112i2Ay1s0XVnTYRcsNjMnBeGpErdcC62XqKGzs8q\nZILVcUnM0Q0iIDWOfrZ+zeuXjFBMkpgVAforEIXJAoGAGEBcGUWaw7l2APPf8Gcj\npD6uVlpkZ5EwAfvqhfhvLhVuJexICfqhug6w3tBPqps66n3az/RHTj3khwbIpJmW\nBG0RseQ1d0hbC+sfaZ7GufTXL41MmN+e8bMw9phLv9TbMctUiellH4CSBDRMmjLZ\nXDjzUft4mbYXH/3KyBL2ZX0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "wazieats@appspot.gserviceaccount.com",
+  "client_id": "103933242388541111187",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wazieats%40appspot.gserviceaccount.com"
+}

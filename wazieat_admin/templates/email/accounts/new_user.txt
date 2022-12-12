@@ -1,0 +1,15 @@
+Bienvenue dans {{ site_name }},
+
+Cliquez ci-dessous pour vérifier votre compte.
+
+{{ url }}
+
+Pour faciliter votre connexion, enregistrez cette URL :
+
+{{ login_url }}
+
+Nom d’utilisateur :
+
+{{ email }}
+
+Encore une fois, bienvenue dans {{ site_name }}!

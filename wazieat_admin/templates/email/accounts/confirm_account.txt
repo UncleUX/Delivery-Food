@@ -1,0 +1,11 @@
+{{ en_tete }} dans {{ site_name }},
+
+{{ message }}
+
+Cliquez ci-dessous pour vous connecter.
+
+{{ login_url }}
+
+Nom d’utilisateur :
+
+{{ phone }}

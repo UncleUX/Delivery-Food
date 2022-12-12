@@ -1,0 +1,224 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Documentation des APIs - Data Anonymizer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Documentation des APIs du SDA Data Anonymizer"
+    />
+    <meta
+      name="keywords"
+      content="Documentation, SDA, Anonymizer, anonymisation, échantillonnage"
+    />
+    <meta name="author" content="Datanaos" />
+    <link
+      type="text/css"
+      href="{% static 'bootstrap/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'css/technicalDoc.css' %}" />
+    <link rel="icon" href="{% static 'img/datanaos-favi.png'%}" />
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+    ></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js'%}"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <a class="nav-link" rel="internal" href="{%url 'accueil'%}"
+          >Documentation des APIs</a
+        >
+      </header>
+      <ul class="pb-3">
+        <a class="nav-link" rel="internal" href="{% url 'connexion'%}"
+          ><li>API de Connexion</li></a
+        >
+        <a class="nav-link" rel="internal" href="{%url 'anonymise_list'%}"
+          ><li>API de liste des anonymisations</li></a
+        >
+
+        <a class="nav-link" rel="internal" href="{%url 'anonymise'%}"
+          ><li>API d'Anonymisation</li></a
+        >
+        <a class="nav-link" href="{% url 'anonym_csv' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers CSV</li>
+        </a>
+        <a class="nav-link" href="{% url 'anonym_json' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers JSON</li>
+        </a>
+        <a class="nav-link" href="{% url 'anonym_xlsx_struc' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers EXCEL Structurés</li>
+        </a>
+        <a class="nav-link" href="{% url 'anonym_xlsx_struc' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers XML</li>
+        </a>
+        <a class="nav-link" rel="internal" href="{%url 'anonymise_doc'%}"
+          ><li>API d'Anonymisation non structuré</li></a
+        >
+        <a class="nav-link" href="{% url 'anonym_xlsx' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers EXCEL non Structurés</li>
+        </a>
+
+        <a class="nav-link" href="{% url 'anonym_img' %}" rel="internal"
+          ><li>API D'Anonymisation de fichiers IMAGES</li>
+        </a>
+        <a class="nav-link" href="{% url 'anonym_pdf' %}" rel="internal">
+          <li>API d'Anonymisation de fichiers PDF</li>
+        </a>
+        <a class="nav-link" href="{% url 'anonym_pptx' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers PPTX</li>
+        </a>
+        <a class="nav-link" href="{% url 'anonym_docx' %}" rel="internal"
+          ><li>API d'Anonymisation de fichiers WORD</li>
+        </a>
+        <a class="nav-link" rel="internal" href="{% url 'anonymisation_bd'%}"
+          ><li>API d'Anonymisation d'une base de données</li></a
+        >
+        <a class="nav-link" href="{% url 'anonymise_dsn' %}" rel="internal"
+          >L'api d'anonymisation d'un fichier DSN</a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'echantillon'%}"
+          ><li>API d'&Eacute;chantillonnage</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'echantillonnage_csv'%}"
+          ><li>API d'&Eacute;chantillonnage CSV</li></a
+        >
+        <a
+          class="nav-link"
+          rel="internal"
+          href="{% url 'echantillonnage_xlsx'%}"
+          ><li>API d'&Eacute;chantillonnage EXCEL</li></a
+        >
+        <a
+          class="nav-link"
+          rel="internal"
+          href="{% url 'echantillonnage_json'%}"
+          ><li>API d'&Eacute;chantillonnage JSON</li></a
+        >
+        <a
+          class="nav-link"
+          rel="internal"
+          href="{% url 'echantillonnage_mysql'%}"
+          ><li>API d'&Eacute;chantillonnage MySQL</li></a
+        >
+        <a
+          class="nav-link"
+          rel="internal"
+          href="{% url 'echantillonnage_oracle'%}"
+          ><li>API d'&Eacute;chantillonnage ORACLE</li></a
+        >
+        <a
+          class="nav-link"
+          rel="internal"
+          href="{% url 'echantillonnage_postgresql'%}"
+          ><li>API d'&Eacute;chantillonnage POSTGRESQL</li></a
+        >
+        <a
+          class="nav-link"
+          rel="internal"
+          href="{% url 'echantillonnage_sqlserver'%}"
+          ><li>API d'&Eacute;chantillonnage SQL SEVER</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'echantillonnage_xml'%}"
+          ><li>API d'&Eacute;chantillonnage XML</li></a
+        >
+
+        <a class="nav-link" rel="internal" href="{% url 'sample_list'%}"
+          ><li>API de liste d'Échantillonnage</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'echantillon_db'%}"
+          ><li>API d'Échantillonnage d'une base de données</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'download'%}"
+          ><li>API de téléchargement</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'schedulling'%}"
+          ><li>API de Programmation d'exécution</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'prevu_file'%}"
+          ><li>API de présisualisation fichier</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'prevu_file_no'%}"
+          ><li>API de prévisualisation d'un fichier non structuré</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'prevu_file_dsn'%}"
+          ><li>API de présisualisation fichier DSN</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'prevu_bd'%}"
+          ><li>API de présisualisation des bases de données</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'auto_critere'%}"
+          ><li>API d'autodetermination des critères</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'auto_type'%}"
+          ><li>API d'autodetermination des types</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'data-source'%}"
+          ><li>API d'ajout Source de données</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'data-source-view'%}"
+          ><li>API de visualisation Source de données</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'data-source-update'%}"
+          ><li>API de modification Source de données</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'data-source-delete'%}"
+          ><li>API de suppression Source de données</li></a
+        >
+        <a class="nav-link" href="{% url 'niveau' %}" rel="internal"
+          >Api d'ajout d'un niveau</a
+        >
+        <a class="nav-link" href="{% url 'niveau_view' %}" rel="internal"
+          ><li>Api de visualisation d'un niveau</li></a
+        >
+        <a class="nav-link" href="{% url 'niveau_update' %}" rel="internal"
+          ><li>Api de modification d'un niveau</li></a
+        >
+        <a class="nav-link" href="{% url 'niveau_delete' %}" rel="internal"
+          ><li>Api de suppression d'un niveau</li></a
+        >
+        <!--<a class="nav-link" href="{% url 'generalisation' %}" rel="internal"><li>Api de Généralisation</li></a>-->
+        <a class="nav-link" rel="internal" href="{% url 'application'%}"
+          ><li>API d'Application</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'programme' %}"
+          ><li>API d'ajout d'un programme</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'export' %}"
+          ><li>API d'export d'un programme</li></a
+        >
+        <a class="nav-link" rel="internal" href="{% url 'inference' %}"
+          ><li>API détection d'inference</li></a
+        >
+        <a
+          class="nav-link"
+          href="{% url 'detail_anonymisation' %}"
+          rel="internal"
+          ><li>L'api de détail d'une anonymisation</li></a
+        >
+        <a class="nav-link" href="{% url 'delete_programme' %}" rel="internal"
+          ><li>L'api de suppression d'un programme</li></a
+        >
+        <a class="nav-link" href="{% url 'audit' %}" rel="internal"
+          ><li>L'api de l'audit</li></a
+        >
+        <a class="nav-link" href="{% url 'auto_det_fich' %}" rel="internal"
+          ><li>API d'auto-détection sur fichiers non structuré</li>
+        </a>
+        <a class="nav-link" href="{% url 'auto_det_bd' %}" rel="internal"
+          ><li>API d'auto-détection sur les bases de données</li>
+        </a>
+        <a class="nav-link" href="{% url 'informationSoc' %}" rel="internal"
+          ><li>API Informations Societé</li>
+        </a>
+      </ul>
+    </nav>
+    <main id="main-doc">{% block content %} {% endblock %}</main>
+  </body>
+</html>

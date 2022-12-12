@@ -1,0 +1,17 @@
+Bienvenue dans {{ site_name }},
+
+Vous avez fait une demande de création d'un compte livreur
+
+Cliquez ci-dessous pour valider votre compte.
+
+{{ url }}
+
+Pour faciliter votre connexion, enregistrez cette URL :
+
+{{ login_url }}
+
+Numéro de téléphone :
+
+{{ phone }}
+
+Encore une fois, bienvenue dans {{ site_name }}!
